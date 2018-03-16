@@ -9,7 +9,7 @@
 //
 // @author       Hello World (aka You!)
 //
-// @include      *://apps.collabservintegration.com/homepage/*
+// @include      *://apps.ce.collabserv.com/homepage/*
 //
 // @exclude
 //
