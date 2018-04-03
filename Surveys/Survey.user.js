@@ -1,3 +1,4 @@
+
 // ==UserScript==
 // @name         Test
 // @namespace    http://tampermonkey.net/
@@ -19,12 +20,13 @@ if(typeof(dojo) != "undefined") {
             dojo.byId('initializing-msg').style.display = 'none';
 
    			dojo.place(
+
                     '<span id="printPDF" class="dijit dijitReset dijitInline dijitButton lfFormBtn lotusFormButton lfFormActionBtn lfFormActionSubmitBtn" role="presentation" >' +
                     '<span class="dijitReset dijitInline dijitButtonNode" onClick="window.print()" role="presentation">' +
                     '<span class="dijitReset dijitStretch dijitButtonContents" data-dojo-attach-point="titleNode,focusNode" role="button" tabindex="0" id="1111111" title="" style="-webkit-user-select: none;">' +
                     '<span class="dijitReset dijitInline dijitIcon dijitNoIcon" data-dojo-attach-point="iconNode">' +
                     '</span>' +
-                    '<span class="dijitReset dijitToggleButtonIconChar">●</span>' +
+                    '<span class="dijitReset dijitToggleButtonIconChar"> </span>' +
                     '<span class="dijitReset dijitInline dijitButtonText" id="22222222_label" data-dojo-attach-point="containerNode">Print PDF</span>' +
                     '</span>' +
                     '</span>' +
